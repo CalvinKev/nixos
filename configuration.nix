@@ -141,7 +141,6 @@
 
     # Gaming
     #wine
-    polymc
     jdk
     #protonup
     #grapejuice
@@ -170,8 +169,8 @@
   # Fonts
   fonts.fonts = with pkgs; [
     cascadia-code
-    font-awesome
-    (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+    #font-awesome
+    #(nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
   ];
 
   # Steam
